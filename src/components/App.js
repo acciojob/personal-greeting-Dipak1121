@@ -14,7 +14,7 @@ const App = () => {
         <input type="text"
         onChange={handleChange}></input>
 
-        {message != "" ? <p>Hello {message}!</p> : ""}
+        {message != "" ? <p>Hello {message}!</p> : <p></p>}
     </div>
   )
 }
